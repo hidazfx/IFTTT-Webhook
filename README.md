@@ -9,7 +9,7 @@
  //Here's an example of getting a return string from a Webhook. This will return an empty string if no Webhook has been called before.
  IFTTTWebhook.getWebhookOutput();
  ```
- The .jar file available in this repository also contains a small UI for testing. It's code cam also be viewed and modified through this repository. Combined with the UI, you can also call a Webhook using a command line of your choice. The command would be as follows.
+ The .jar file available in this repository also contains a small UI for testing. It's code cam also be viewed and modified through this repository. Instead of using the UI, you can call a Webhook using a command line of your choice. The command would be as follows.
  ```batch
  java -jar IFTTTWebhooks.jar MakerKey Webhook
  ```
