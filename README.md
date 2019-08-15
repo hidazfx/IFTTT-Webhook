@@ -1,5 +1,5 @@
 # IFTTT-Webhook
- A basic library that allows easy calls to IFTTT's Maker/Webhook service.
+ A basic library / program that allows easy calls to IFTTT's Maker/Webhook service.
 ## Tutorial
  The library comes with 2 methods, used for calling to the Webhook and getting output from the Webhook.
  ```java
@@ -13,3 +13,5 @@
  ```batch
  java -jar IFTTTWebhooks.jar MakerKey Webhook
  ```
+## How to Obtain a Maker Key
+  A Maker Key can be obtained by going to [the IFTTT Webhooks page](https://ifttt.com/maker_webhooks) and clicking on the "Documentation" Button in the top right corner.
