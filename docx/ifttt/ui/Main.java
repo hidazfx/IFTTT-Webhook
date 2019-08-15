@@ -30,6 +30,13 @@ public class Main extends JFrame {
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
+		if(!args[0].isEmpty()) { //args[0] is the Key
+			if(!args[1].isEmpty()) { //args[1] is the Webhook
+				IFTTTWebhook.callWebhook(args[1].toString(), args[0].toString());
+				System.out.println(IFTTTWebhook.getWebhookOutput());
+				System.exit(EXIT_ON_CLOSE);
+			}
+		}
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
